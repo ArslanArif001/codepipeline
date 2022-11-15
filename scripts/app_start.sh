@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #_Change_Working_Directory
-cd /var/www
+cd /home/ubuntu/server
 
 #_Delete_Old_PM2_Service
 #sudo pm2 delete Frontend
