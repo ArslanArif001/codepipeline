@@ -4,10 +4,10 @@
 cd /var/www/
 
 #_Update_&_Set_Node_Version
-curl -s https://deb.nodesource.com/setup_16.x | sudo bash
+curl -sL https://rpm.nodesource.com/setup_14.x | sudo -E bash -
 
 #_Download_Node_&NPM
-apt -y install nodejs npm
+sudo apt install nodejs npm
 
 #_Download_PM2
 npm install pm2@latest -g
