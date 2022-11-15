@@ -5,4 +5,5 @@ cd /var/www/
 
 
 #Install_node_modules_&_Make_React_Build
-sudo npm  install -f
+sudo npm install -f
+npm run build
