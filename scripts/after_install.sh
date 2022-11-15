@@ -3,7 +3,10 @@
 #_Change_Working_Directory
 cd /var/www/
 
+#_Remove_Unused_Code
+rm -rf node_modules
+rm -rf build
 
 #Install_node_modules_&_Make_React_Build
-sudo npm install -f
+npm  install
 npm run build
