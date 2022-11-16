@@ -4,7 +4,7 @@
 cd /var/www
 
 #_Update_&_Set_Node_Version
-curl -s https://deb.nodesource.com/setup_16.x | sudo bash
+curl -sL https://rpm.nodesource.com/setup_16.x | sudo -E bash -
 
 #_Download_Node_&NPM
 apt install nodejs npm
