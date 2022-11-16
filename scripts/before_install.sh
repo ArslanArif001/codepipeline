@@ -7,7 +7,7 @@ cd /var/www
 curl -sL https://rpm.nodesource.com/setup_14.x | sudo -E bash -
 
 #_Download_Node_&NPM
-sudo apt install nodejs npm
+apt -y install nodejs npm
 
 #_Download_PM2
 npm install pm2@latest -g
