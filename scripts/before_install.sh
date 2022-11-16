@@ -1,10 +1,10 @@
 #!/bin/bash
 
 #_Change_Working_Directory
-cd /home/ubuntu/server
+cd /var/www
 
 #_Update_&_Set_Node_Version
-curl -sL https://rpm.nodesource.com/setup_14.x | sudo -E bash -
+curl -s https://deb.nodesource.com/setup_16.x | sudo bash
 
 #_Download_Node_&NPM
 apt install nodejs npm
